@@ -1,0 +1,77 @@
+body{
+  background-color: rgb(107, 210, 234);
+}
+.to_do_list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  
+}
+h1{
+  font-size: 3rem;
+  
+}
+button{
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: rgb(151, 8, 8);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.addbutton{
+  background-color: aquamarine;
+}
+.addbutton:hover{
+  background-color: rgb(5, 248, 167);
+}
+.Delete-Button{
+  background-color: rgb(239, 4, 24);
+}
+.Delete-Button:hover{
+  background-color: rgb(109, 2, 11);
+}
+.movedown{
+  background-color: rgb(194, 225, 66);
+}
+.movedown:hover{
+  background-color: rgb(140, 161, 4);
+}
+.moveUp{
+  background-color: rgb(10, 246, 53);
+}
+.moveUp:hover{
+  background-color: rgb(2, 109, 18);
+}
+input[type = "text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: rgb(16, 16, 16);
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+.Delete-Button, .movedown, .moveUp{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+
