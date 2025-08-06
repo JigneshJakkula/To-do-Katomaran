@@ -1,3 +1,4 @@
+import { GoogleLogin } from "@react-oauth/google";
 import React,{ useState } from "react"
 function ToDoList(){
   const [tasks, setTasks] = useState([]);
@@ -10,7 +11,7 @@ function handleInputChange(event){
 
 function addTask(){
   if(newTask.trim() !== ""){
-    setTasks(t => [...tasks, newTask]);
+    setTasks(tasks => [...tasks, newTask]);
     setNewTask("");
   }
 }
